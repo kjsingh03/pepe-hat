@@ -100,8 +100,8 @@ const App = () => {
               image &&
               <>
                 <div ref={screenRef} className='screen z-50 w-screen h-screen fixed left-0 top-0 flex flex-col gap-4 items-center justify-center backdrop-blur-sm'>
-                  <div className="modal border-slate-400/20 rounded-lg border flex flex-col gap-4 items-center justify-center mx-auto p-5 w-full xs:w-[70vw] md:w-[50vw] 2xl:w-[40vw] h-[20rem]">
-                    <div className="h-auto w-auto max-h-[13.5rem] max-w-[24rem] overflow-hidden" style={{ position: 'relative', display: 'inline-block' }}>
+                  <div className="modal border-slate-400/20 rounded-lg border flex flex-col gap-4 items-center justify-center mx-auto p-2 2xl:p-5 w-full xs:w-[90%] sm:w-[75vw] md:w-[60vw] lg:w-[50vw] 2xl:w-[40vw] h-[60vh]">
+                    <div className="h-auto w-auto xl:max-h-[60vh] max-w-[80vw] 2xl:max-w-[70vw] overflow-hidden" style={{ position: 'relative', display: 'inline-block' }}>
                       <img ref={imageRef} src={image} alt="Uploaded" crossOrigin="anonymous" className='w-full h-full object-cover' />
                       <canvas ref={canvasRef} style={{ display: 'none' }} />
                       {
