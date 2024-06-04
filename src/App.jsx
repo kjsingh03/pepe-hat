@@ -89,7 +89,7 @@ const App = () => {
   return (
     <>
       <div className="">
-        <div className='h-screen z-40 bg-[url(./assets/bg1.webp)] bg-no-repeat bg-[-37rem_0rem] xs:bg-[-27rem_0rem] sm:bg-center bg-cover bg-fixed flex items-center justify-center'>
+        <div className='h-screen z-40 bg-[url(./assets/mbg1.png)] md:bg-[url(./assets/bg1.webp)] bg-no-repeat bg-center bg-cover bg-fixed flex items-center justify-center'>
 
           <div className="flex flex-col backdrop-blur-[5px h-[35rem] text-white rounded-lg w-[35rem] justify-center items-center gap-6">
             <p className="text-center text-2xl font-semibold">Upload an image to add pepe hat</p>
