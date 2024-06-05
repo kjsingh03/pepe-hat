@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import Moveable from "react-moveable";
 import "./App.css";
 import hatImage from "./assets/hat.png";
-import { bg1, mbg1 } from "./assets";
 
 const App = () => {
   const [image, setImage] = useState(null);
