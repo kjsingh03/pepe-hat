@@ -8,3 +8,21 @@ body{
   height: 100vh;
   overflow-y: auto;
 }
+
+.moveable-control-box .moveable-line {
+  background: #4af;
+}
+
+.moveable-control {
+  background: #4af;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.moveable-rotation-control {
+  background: #4af;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
