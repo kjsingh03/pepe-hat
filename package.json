@@ -1,5 +1,5 @@
 {
-  "name": "updated",
+  "name": "pepe-hat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "html2canvas": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-easy-crop": "^5.0.7",
-    "react-moveable": "^0.56.0",
-    "react-rnd": "^10.4.11"
+    "react-moveable": "^0.56.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

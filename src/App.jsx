@@ -99,7 +99,7 @@ const App = () => {
   }, [hat.width, hat.height]);
 
   return (
-    <div className="h-[200vh]">
+    <div className="">
       <div className={`h-screen z-40 bg-[url(./assets/mbg1.png)] md:bg-[url(./assets/bg1.webp)] bg-no-repeat bg-center bg-cover bg-fixed flex items-center justify-center`}>
         <div className="flex flex-col border-slate-400/20 border md:border-none h-[15rem] text-white rounded-lg w-[90%] md:w-[35rem] justify-center items-center gap-6">
           <p className="text-center text-xl md:text-2xl font-semibold w-[95%]">
@@ -219,7 +219,7 @@ const App = () => {
           )}
         </div>
       </div>
-      <div className="h-screen z-40 bg-[url(./assets/bg2.jpg)] bg-no-repeat bg-center bg-cover bg-fixed flex items-center justify-center"></div>
+      {/* <div className="h-screen z-40 bg-[url(./assets/bg2.jpg)] bg-no-repeat bg-center bg-cover bg-fixed flex items-center justify-center"></div> */}
     </div>
   );
 };
