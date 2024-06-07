@@ -101,7 +101,7 @@ const App = () => {
 
   return (
     <>
-      <div className={`h-screen z-40 bg-[url(./assets/mbg1.png)] md:bg-[url(./assets/bg1.webp)] bg-no-repeat bg-center bg-cover bg-fixed flex flex-col items-center justify-center py-12`}>
+      <div className={`h-screen overflow-y-auto z-40 flex flex-col items-center justify-center py-12`}>
 
         <div className=" flex flex-col justify-between items-center h-full text-white rounded-lg w-[95vw] xs:w-[80vw] md:w-[40rem]">
           <div className="flex flex-col justify-center items-center gap-6 w-full">

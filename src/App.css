@@ -7,6 +7,10 @@
 body{
   height: 100vh;
   overflow-y: auto;
+  background-image: url('./assets/bg1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .moveable-control-box .moveable-line {
@@ -25,4 +29,10 @@ body{
   border-radius: 50%;
   width: 15px;
   height: 15px;
+}
+
+@media screen and (max-width:768px) {
+    body{
+      background-image: url('./assets/mbg1.png');
+    }
 }
