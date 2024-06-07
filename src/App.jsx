@@ -101,11 +101,11 @@ const App = () => {
 
   return (
     <>
-      <div className={`h-screen z-40 bg-[url(./assets/mbg1.png)] md:bg-[url(./assets/bg1.webp)] bg-no-repeat bg-center bg-cover bg-fixed flex flex-col items-center justify-center`}>
+      <div className={`h-screen z-40 bg-[url(./assets/mbg1.png)] md:bg-[url(./assets/bg1.webp)] bg-no-repeat bg-center bg-cover bg-fixed flex flex-col items-center justify-center py-12`}>
 
-        <div className="border-slate-400/20 border md:border-none flex flex-col justify-between items-center h-[27rem] p-4 text-white rounded-lg w-[95vw] xs:w-[80vw] md:w-[40rem]">
+        <div className=" flex flex-col justify-between items-center h-full text-white rounded-lg w-[95vw] xs:w-[80vw] md:w-[40rem]">
           <div className="flex flex-col justify-center items-center gap-6 w-full">
-            <p className="text-center text-3xl md:text-4xl font-semibold">$MEP</p>
+            <p className="text-center text-4xl font-semibold">$MEP</p>
             <div className="w-28">
               <img src="logo.png" className="w-full h-full object-cover" alt="" />
             </div>
@@ -209,6 +209,9 @@ const App = () => {
                 </div>
               </div>
             )}
+          </div>
+          <div className="w-full text-center text-2xl font-semibold">
+            <a href="https://www.memesinapepe.world/" target="_blank">website</a>
           </div>
         </div>
 
