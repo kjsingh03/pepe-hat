@@ -101,9 +101,9 @@ const App = () => {
 
   return (
     <>
-      <div className={`h-screen overflow-y-auto z-40 flex flex-col items-center justify-center py-12`}>
+      <div className={`h-screen overflow-y-auto z-40 flex flex-col items-center justify-center py-16`}>
 
-        <div className=" flex flex-col justify-between items-center h-full text-white rounded-lg w-[95vw] xs:w-[80vw] md:w-[40rem]">
+        <div className="flex flex-col justify-between items-center h-full text-white rounded-lg w-[95vw] xs:w-[80vw] md:w-[40rem]">
           <div className="flex flex-col justify-center items-center gap-6 w-full">
             <p className="text-center text-4xl font-semibold">$MEP</p>
             <div className="w-28">
